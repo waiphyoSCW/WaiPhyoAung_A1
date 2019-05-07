@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+		background-image: linear-gradient(60deg, #96deda 0%, #50c9c3 100%);
+}
+#fsbg {
+    height: 750px;
+    width: 100%;
+}
+#header {
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    height: 70px;
+    position: relative;
+    margin: 0px;
+    width: 100%;
+	border-radius: 25px;
+}
+#header ul {
+    position: absolute;
+    left: 25%;
+    bottom: 40%;
+    padding: 1%;
+    margin: -1%;
+    background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%);
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-color: #666666;
+	border-radius: 25px;
+}
+#header li {
+    list-style: none;
+    display: inline;
+	border-radius: 25px;
+}
+#header ul li a {
+    height: 25px;
+    margin: 0px;
+    padding: 0px 30px 0px 20px;
+    border-left: #999999 1px solid;
+    border-top: #999999 1px solid;
+    border-bottom: #999999 1px solid;
+    border-right: #999999 1px solid;
+    color: #333333;
+    text-decoration: none;
+    font-size: 18px;
+	border-radius: 25px;
+}
+#header ul li a:hover {
+    color: #333333;
+    background-color: #97bfff;
+}
+#header ul li a:active {
+    color: #000000;
+    background-color: #FF9900;
+}
+#header subjectHead {
+    position: absolute;
+    top: 0px;
+    left: 100%;
+}
+#container {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    height: 60%;
+    width: 65%;
+    background-position: top;
+   background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    text-align: center;
+	border-style: solid;
+	font-size: 20px;
+	border-radius: 25px;
+}
+#container h1 {
+    font-style: normal;
+    text-align: centre;
+	
+}
+#container h2 {
+	float: right;
+    text-align: centre;
+}
+#container h5 {
+	float: none;
+    text-align: center;
+	border-style: solid;
+	font-size: 20px;
+	border-radius: 25px;
+	width: 80%;
+	
+}
+#container .text{
+	position:relative; text-align:left; width:70%; left:15%;
+}
+#container .deal{
+	position:relative; text-align:left; width:70%; left:15%; top:10%;
+}
+#container sign {
+    text-align: centre;
+}
+#containerlogin {
+	width: 20%;
+    position: absolute;
+    left: 75%;
+    top: 5%;
+    text-align: left;
+	border-radius: 25px;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+#container .table{
+	position:relative; 
+	width: 100%;
+	background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+}
+#footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 120px;
+    clear: both;
+    text-align: center;
+    font-size: 18px;
+	background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+	border-radius: 25px;
+}
